@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Metropolis-Bold";
+    src: local('Metropolis-Bold'), url('./font/metropolis.bold.otf') format('opentype');
+}
+
+.loginmain {
+    position: absolute;
+    top: 18%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(-2deg) skew(-2deg);
+    width: 62vh;
+    height: 33vh;
+    background-color: #000101;
+    border-radius: 3px;
+}
+
+.loginmain2 {
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(-2deg) skew(-2deg);
+    width: 65vh;
+    height: 36vh;
+    background-color: #000101db;
+    border-radius: 3px;
+}
+
+.zeitverbleibend {
+    position: absolute;
+    color: white;
+    font-size: 1.3vh;
+    top: 10%;
+    left: 70%;
+    transform: rotate(2deg) skew(2deg);
+    font-family: "Metropolis-Bold";
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.144);
+    letter-spacing: 0.15rem;
+}
+
+.zeitverbleibendzeit {
+    position: absolute;
+    color: #38BFD7;
+    font-size: 3.3vh;
+    top: 10%;
+    left: 84%;
+    transform: rotate(2deg) skew(2deg);
+    font-family: "Metropolis-Bold";
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.144);
+    letter-spacing: 0.15rem;
+}
+
+.herzlichwillkommen {
+    position: relative;
+    color: white;
+    top: 40%;
+    font-size: 2vh;
+    text-align: center;
+    transform: rotate(2deg) skew(2deg);
+    font-family: "Metropolis-Bold";
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.144);
+    letter-spacing: 0.15rem;
+}
+
+.herzlichwillkommenname {
+    position: relative;
+    color: #38BFD7;
+    top: 35%;
+    font-size: 1.5vh;
+    text-align: center;
+    transform: rotate(2deg) skew(2deg);
+    font-family: "Metropolis-Bold";
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.144);
+    letter-spacing: 0.15rem;
+}
+
+.pweingeben {
+    position: absolute;
+    width: 30vh;
+    height: 3vh;
+    left: 50%;
+    right: 50%;
+    top: 65%;
+    border-radius: 2px;
+    transform: rotate(2deg) skew(2deg) translate(-50%, 50%);
+    background-color: #1d1d1d;
+    border: none;
+    border-bottom: 5px solid #1C4953;
+    color: white;
+    outline: none;
+    font-family: "Metropolis-Bold";
+    font-size: 1.5vh;
+    text-align: center;
+}
+
+.einlgbtn {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 82%;
+    width: 12vh;
+    height: 2.5vh;
+    transform: rotate(2deg) skew(2deg) translate(-50%, 50%);
+    background-color: #0E0E12;
+    color: #222429;
+    font-family: "Metropolis-Bold";
+    font-size: 1.2vh;
+    line-height: 2.5vh;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 500ms;
+}
+
+.einlgbtn:hover {
+    transition: 500ms;
+    color: white;
+    background-color: #38BFD7;
+}
+
+.logoampora {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 5%;
+    transform: translate(-50%, 50%);
+    width: 20vh;
+    height: auto;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
